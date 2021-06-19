@@ -21,5 +21,6 @@ public class CarAppApplication {
 	      return new Docket(DocumentationType.SWAGGER_2).select()
 	         .apis(RequestHandlerSelectors.basePackage("com")).build();
 	   }
+	//http://localhost:9090/swagger-ui/index.html
 
 }
